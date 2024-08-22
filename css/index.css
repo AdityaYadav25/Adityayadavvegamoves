@@ -1,0 +1,209 @@
+*{margin: 0px; padding: 0px;}
+
+body{background-color:#363434;}
+
+.logo {display: flix; 
+       padding:20px 20px 20px 150px;
+      }
+
+/*navbar css start*/
+
+.navbar{ background-color:#3d3d3d;
+          display:flex;
+           justify-content: space-around;
+           align-items:center; 
+         padding: 10px 20px;}        
+
+ul{display: flex;
+    justify-content:space-around;
+     text-align: center;
+     list-style: none;}
+     
+ ul > li > a {text-decoration: none; color: white; padding: 10px}    
+ 
+  ul > li > a:hover {
+    background-color: #333;
+    border-radius: 5px;
+}
+ 
+ input {
+    padding: 5px 10px;
+    font-size: 16px;
+    border: 1px solid #555;
+    border-radius: 20px;
+    background-color: #333;
+    color: white;}
+    
+/*navbar css end*/
+
+/*header-social start*/
+
+.header-social{text-align:center;
+               margin-bottom:10px;
+                margin-top: 10px;} 
+ .button {
+    font-family: changa, sans-serif;
+    color: white;
+    padding: 8px 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    min-width:210px;
+    border-radius:15%;
+    background-color: #44b81a;
+    text-transform: uppercase;}   
+
+/*header-social end */
+
+/*telegram-btn css start*/
+
+.telegram-btn{background-color:#009de1;
+               width: 90%;
+               text-align: center;
+               display:inline-block;
+               font-size:18px;
+               padding: 10px;
+               border-radius:6px;
+               text-decoration:none;
+                color: white;}
+
+ .telegram{text-align: center;
+            margin-top: 10px;
+            margin-bottom: 10px;}
+
+/*telegram-btn css end*/
+
+/*tabbox css start*/
+.wrapper{display: flex;
+        justify-content: space-around;
+         align-items: center;}
+
+.tab-box{display: flex;
+         justify-content:center;
+         flex-wrap: wrap;
+         align-items: center;
+         padding-top:15px;
+         padding-bottom:15px;
+         gap: 10px;
+         list-style: none;
+         width:90%;}
+
+.tab-box > .tab {text-decoration: none; 
+                  color: white;
+                  padding:3px 11px;
+                  background: #3d3d3d;
+                  text-align:center;
+                  font-size: 14px;
+                  min-width: 70px;
+                 display: inline-block;}
+
+ /*tabbox css end*/
+
+/*movie css start*/
+  .main{background:;
+         width: 100%;
+         display:inline-block;}
+
+.movie {display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:10px;
+        padding:20px;
+        margin: 20px;
+        min-width:1170px;
+        background:#333131;
+        border-radius:16px;}
+
+.blog-pic {position:relative;
+           width:200px;
+           height:270px;
+           overflow: hidden;
+           border-radius :20px 20px 0px 0px;}
+
+
+.blog-pic img {object-fit:fill;
+    width: 100%;
+    height:100%;}
+
+.movie-title {
+    position:absolute;
+    bottom:0px;
+    width: 100%;
+    text-align:center;
+    color:black;
+    font-size:15px;}
+
+      @media screen and (max-width:1255px) {
+ 
+          .blog-pic{width:140px;
+           height:270px;
+           overflow: hidden;
+           position: relative;
+           border-radius :20px 20px 0px 0px;} 
+.movie{min-width: auto;
+}
+
+  }
+
+/*  movie css end*/
+
+/*pagenev css start*/
+
+.pagenev{padding: 60px 20px 20px 20px;}
+
+
+.pagenev > span {border: 1px solid rgba(255, 255, 255, .1);
+                 background-color: #ffcd38;
+                 padding: 10px 15px;
+                 min-width: 40px;
+                 min-height: 40px;
+                 display: inline-block;
+                 margin: 3px;
+                 vertical-align:top;
+                 text-align: center;
+                 color:white;}
+
+
+
+
+.pagenev a {text-decoration: none; color: white;
+                 border: 1px solid rgba(255, 255, 255, .1);
+                 padding: 10px 15px;
+                 min-width: 40px;
+                 min-height: 40px;
+                 display: inline-block;
+                 margin: 3px;
+                 vertical-align:top;
+                 text-align: center;}
+
+.pagenev a:hover{background-color:#ffcd38;}             
+
+.pagenev > .nevext{background-color:transparent; color:white;}
+.pagenev .nevext:hover{background-color:#ffcd38;
+                      cursor:pointer;}   
+
+
+
+/*pagenev css end*/
+
+
+/*footer css start*/
+
+.footer{display: flex;
+        justify-content: center;
+        align-items:center;
+        padding:20px;}
+
+.copywrite{font-size:12px;
+          text-align: center;}
+
+.copysvg{display:inline;
+         height:1em;
+         width: 1em;}
+
+.center a {text-decoration:none;
+            color:#c4c4c4;
+           font-size: 12px;}
+
+/*footer css end*/
